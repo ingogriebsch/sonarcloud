@@ -1,4 +1,4 @@
-package sonarcloud.module1;
+package sonarcloud.module2;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
