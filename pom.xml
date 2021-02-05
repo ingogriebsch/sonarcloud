@@ -23,4 +23,16 @@
         <module>sonarcloud-module-1</module>
         <module>sonarcloud-module-2</module>
     </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>0.8.6</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
