@@ -1,6 +1,6 @@
-package sonarcloud.module1;
+package sonarcloud.module2;
 
-public class SomeClass {
+public class Module2Class {
 
     private String value;
 
@@ -31,7 +31,7 @@ public class SomeClass {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        SomeClass other = (SomeClass) obj;
+        Module2Class other = (Module2Class) obj;
         if (value == null) {
             if (other.value != null) {
                 return false;
@@ -44,15 +44,15 @@ public class SomeClass {
 
     @Override
     public String toString() {
-        return "SomeClass [value=" + value + "]";
+        return "Module2Class [value=" + value + "]";
     }
 
-    public SomeClass(String value) {
+    public Module2Class(String value) {
         super();
         this.value = value;
     }
 
-    public SomeClass() {
+    public Module2Class() {
         super();
     }
 
