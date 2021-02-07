@@ -16,7 +16,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <sonar.coverage.jacoco.xmlReportPaths>
-            ${project.basedir}/../sonarcloud-coverage/target/site/jacoco-aggregate/jacoco.xml,
             ${project.basedir}/sonarcloud-coverage/target/site/jacoco-aggregate/jacoco.xml
         </sonar.coverage.jacoco.xmlReportPaths>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
