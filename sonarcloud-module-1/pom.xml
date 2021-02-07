@@ -10,7 +10,7 @@
 
     <artifactId>sonarcloud-module-1</artifactId>
 
-    <name>Module 1</name>
+    <name>Sonarcloud Module 1</name>
 
     <dependencies>
         <dependency>
