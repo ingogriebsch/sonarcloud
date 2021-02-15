@@ -20,7 +20,7 @@
             ${project.basedir}/target/coverage/lcov.info
         </sonar.javascript.lcov.reportPaths>
         <sonar.sources>src/main/java,src/main/javascript</sonar.sources>
-        <sonar.exclusions>${project.basedir}/src/main/javascript/e2e/**,${project.basedir}/src/main/javascript/**/*.spec.ts</sonar.exclusions>
+        <sonar.exclusions>${project.basedir}/src/main/javascript/e2e/**/*.*,${project.basedir}/src/main/javascript/**/*.spec.ts</sonar.exclusions>
         <sonar.tests>src/test/java,src/main/javascript</sonar.tests>
         <sonar.test.inclusions>${project.basedir}/src/main/javascript/**/*.spec.ts</sonar.test.inclusions>
     </properties>
