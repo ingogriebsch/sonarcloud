@@ -18,9 +18,6 @@
         <sonar.coverage.jacoco.xmlReportPaths>
             ${project.basedir}/sonarcloud-coverage/target/site/jacoco-aggregate/jacoco.xml
         </sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.javascript.lcov.reportPaths>
-            ${project.basedir}/sonarcloud-module-2/target/coverage/lcov.info
-        </sonar.javascript.lcov.reportPaths>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>ingogriebsch</sonar.organization>
         <surefire.version>3.0.0-M5</surefire.version>
